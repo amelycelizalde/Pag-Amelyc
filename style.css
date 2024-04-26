@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+#logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a,
+footer p {
+    color: #fff;
+}
+
+footer h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+#username,
+#password {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#inicio {
+    padding-top: 100px;
+}
+
+#contacto {
+    padding: 50px 0;
+}

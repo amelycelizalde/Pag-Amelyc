@@ -1,0 +1,95 @@
+
+Entendido, aquí tienes una estructura básica para la página ropa.html con algunos ejemplos de productos de ropa y enlaces a tiendas en línea:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa - Amelyc Store</title>
+    <!-- Enlaces a Archivos Externos -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <nav class="navbar-inverse my_nav_bar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">AMELYC STORE</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="productos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h1>Productos de Ropa</h1>
+                        <div class="ropa-item">
+                            <img src="https://noticiastu.com/wp-content/uploads/2020/07/Ropa-de-Moda-para-Chicas-Adolescentes-14.jpg" alt="Playera">
+                            <h2>Vestido Paris</h2>
+                            <p>Descripción: Hermoso vestido, talla única.</p>
+                            <a href="https://www.tiendaropap.com/playera-algodon" target="_blank" class="btn btn-primary">Comprar</a>
+                        </div>
+                        <div class="ropa-item">
+                            <img src=" https://noticiastu.com/wp-content/uploads/2020/07/Ropa-de-Moda-para-Chicas-Adolescentes-24.jpg" alt="Jeans">
+                            <h2>Blusa Alana</h2>
+                            <p>Descripción: Hermosa blusa con escote.</p>
+                            <a href="https://www.tiendaropaj.com/jeans-mezclilla" target="_blank" class="btn btn-primary">Comprar</a>
+                        </div>
+                        <!-- Puedes agregar más productos aquí -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <a href="mailto:amelyc_store@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;<b>amelyc_store@gmail.com</b></h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;<b>@amelyc_store</b></h5>
+                    </a>
+                    <p>&copy; 2024 Amelyc - Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts Externos -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
